@@ -1,0 +1,16 @@
+:level-13 {:english {:level-title "Level 13"
+                     :paragraph-1 (str "Human " applicant-name ", you can write your own ")
+                     :paragraph-1.1 "custom functions"
+                     :paragraph-1.2 " for use as aggregate, predicate or function clauses in queries."
+                     :paragraph-2 "For example, to return "
+                     :paragraph-2.1 "{:stats {:worker/age 27 :days-since-disciplinary-incident 2}"
+                     :paragraph-2.2 " in place of the ref in "
+                     :paragraph-2.3 ":farm/top-worker"
+                     :paragraph-2.4 ", a custom function can be leveraged."
+                     :paragraph-3 "(defn worker-stats [db worker-eid]\n  (let [{:worker/keys [age days-since-disciplinary-incident]} (d/pull db '[:worker/age :worker/days-since-disciplinary-incident] worker-eid)]\n        {:worker/stats {:age age :days-since-disciplinary-incident days-since-disciplinary-incident}}))\n\n(d/q '[:find (pull ?farm [:farm/name]) ?worker-stats\n       :where [?farm :farm/top-worker ?top-worker]\n              [(datomic-scratch/worker-stats $ ?top-worker) ?worker-stats]] db)"
+                     :paragraph-5 " Using a custom function, update the query to return the author's "
+                     :paragraph-5.1 ":user/first+last-name"
+                     :paragraph-5.2 " and "
+                     :paragraph-5.3 "{:post/stats (str \"Likes: \" <<postLikeCount>> \" Dislikes: \" <<postDislikeCount>>)}"
+                     :paragraph-5.4 " for each post."
+                     :paragraph-6 "You may now continue to level 14."}}

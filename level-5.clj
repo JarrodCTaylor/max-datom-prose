@@ -1,0 +1,18 @@
+:level-5 {:english {:level-title "Level 5"
+                    :paragraph-1 (str "Human " applicant-name ", ")
+                    :paragraph-1.1 " is a declarative way to make hierarchical (and possibly nested) selections of information about entities. Pull applies a pattern to a collection of entities, building a map for each entity."
+                    :paragraph-2 "*android sigh* Judging by the prototypical confused human look on your face, even after my detailed and precise explanation, you do not understand what pull is or why it will be incredibly useful in your efforts."
+                    :paragraph-3 "Begin by running the provided query."
+                    :paragraph-4 "Entity IDs alone may leave too much to the imagination."
+                    :paragraph-5 "In the query replace"
+                    :paragraph-5.1 " :find ?e "
+                    :paragraph-5.2 "with "
+                    :paragraph-5.3 ":find (pull ?e [*]) "
+                    :paragraph-5.4 "and rerun it."
+                    :paragraph-6 "Pull patterns support a variety of attribute navigation options. The wildcard specification * used here pulls all attributes of an entity. The value of :book/author is a reference to an entity representing an author (see the Schema tab for a visual representation). In this case, the information we are interested in is the name of the book and the author's first and last name."
+                    :paragraph-7 "Replace the "
+                    :paragraph-7.1 "* "
+                    :paragraph-7.2 "pattern with "
+                    :paragraph-7.3 ":book/name {:book/author [:author/first-name :author/last-name]} "
+                    :paragraph-7.4 "to retrieve the desired attributes."
+                    :paragraph-8 "You may now continue to level 6."}}
