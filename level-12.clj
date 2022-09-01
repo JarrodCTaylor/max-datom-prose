@@ -11,19 +11,19 @@
                      :paragraph-5.4 " for the "
                      :paragraph-5.5 ":post/comments"
                      :paragraph-6 "You may now continue to level 13."}
-           :portuguese {:level-title ""
-                        :paragraph-1 (str "" applicant-name "")
+           :portuguese {:level-title "Nível 12"
+                        :paragraph-1 (str "Humano " applicant-name ", a")
                         :paragraph-1.1 ":xform"
-                        :paragraph-1.2 ""
-                        :paragraph-2 " \"expired batteries\" :xform "
-                        :paragraph-3 "(defn int->str [i]\n  (case i\n        0 \"zero\"\n        1 \"one\"\n        2 \"two\"\n        3 \"three\"\n        \"I have been advised not to talk numbers\"))\n\n(d/q '[:find  (pull ?farm [:farm/name [:farm/expired-battery-count :xform ns/int->str]])\n       :where [?farm :farm/name]]\n     db)"
-                        :paragraph-5 ":xform"
+                        :paragraph-1.2 "opção dá a habilidade de transformar o valor retornado pelo pull por um atributo."
+                        :paragraph-2 "Por exemplo, ao invés de um número inteiro para \"expired batteries\" associadas a um determinado parque de energia, é possível usar o requisito :xform para retornar uma palavra."
+                        :paragraph-3 "(defn int->str [i]\n  (case i\n        0 \"zero\"\n        1 \"um\"\n        2 \"dois\"\n        3 \"três\"\n        \"Fui aconselhado a não falar números\"))\n\n(d/q '[:find  (pull ?farm [:farm/name [:farm/expired-battery-count :xform ns/int->str]])\n       :where [?farm :farm/name]]\n     db)"
+                        :paragraph-5 "Usando :xform atualize a query para retornar para o"
                         :paragraph-5.1 ":user/first+last-name"
-                        :paragraph-5.2 ""
+                        :paragraph-5.2 "do autor da postagem e uma string na forma de"
                         :paragraph-5.3 "Comment Count: <count>"
-                        :paragraph-5.4 ""
+                        :paragraph-5.4 "para os"
                         :paragraph-5.5 ":post/comments"
-                        :paragraph-6 ""}
+                        :paragraph-6 "Você pode seguir para o nível 13."}
            :spanish {:level-title ""
                      :paragraph-1 (str "" applicant-name "")
                      :paragraph-1.1 ":xform"
