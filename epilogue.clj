@@ -7,14 +7,15 @@
                      :paragraph-3 "To claim your Max-Datom swag email the non artificial intelligence at:"
                      :paragraph-4 "jarrod@cognitect.com"
                      :paragraph-5 "your id:"}
-           :portuguese {:level-title ""
-                        :paragraph-1 (str " " applicant-name "")
-                        :paragraph-2 ""
+           :portuguese {:level-title "Epílogo"
+                        :paragraph-1 (str "Humano" "applicant-name", você foi bem. Na verdade, você está pronto para uma promoção. Se você for aprovado, você pode ser a segunda alternativa na nossa fila para se tornar o terceiro junior manager. 
+                                          Uma promoção como esta garante um pouco de folga. Mesmo que você esteja aqui apenas por catorze horas hoje, vá em frente e tire uma folga esta tarde para refletir sobre sua conquista.")
+                        :paragraph-2 "Você aprendeu muito dos conceitos fundamentais de Datomic. Agora você deve se sentir confortável instalando e experimentando."
                         :paragraph-2.1 "dev-local"
-                        :paragraph-2.2 ""
-                        :paragraph-3 ""
+                        :paragraph-2.2 "em suas aplicações."
+                        :paragraph-3 "Para reivindicar seus ganhos do Max-Datom, envie um e-mail para a inteligência não-artificial em:"
                         :paragraph-4 "jarrod@cognitect.com"
-                        :paragraph-5 ""}
+                        :paragraph-5 "seu id:"}
            :spanish {:level-title ""
                      :paragraph-1 (str " " applicant-name "")
                      :paragraph-2 ""
