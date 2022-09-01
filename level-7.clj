@@ -8,4 +8,24 @@
                     :paragraph-2.2 "and "
                     :paragraph-2.3 ":book/publication-date "
                     :paragraph-2.4 "instead of the :db/id of the book entities."
-                    :paragraph-3 "You may now continue to level 8."}}
+                    :paragraph-3 "You may now continue to level 8."}
+          :portuguese {:level-title ""
+                       :paragraph-1 (str "" applicant-name ":db/id :author/id")
+                       :paragraph-1.1 "{:parent/attr [:nested-attr1 :nested-attr2]}"
+                       :paragraph-1.2 " :nested-attr1  :nested-attr2 :db/id :parent/attr"
+                       :paragraph-2 ""
+                       :paragraph-2.1 ":book/name "
+                       :paragraph-2.2 ""
+                       :paragraph-2.3 ":book/publication-date "
+                       :paragraph-2.4 ":db/id "
+                       :paragraph-3 ""}
+          :spanish {:level-title ""
+                    :paragraph-1 (str "" applicant-name ":db/id :author/id")
+                    :paragraph-1.1 "{:parent/attr [:nested-attr1 :nested-attr2]}"
+                    :paragraph-1.2 " :nested-attr1  :nested-attr2 :db/id :parent/attr"
+                    :paragraph-2 ""
+                    :paragraph-2.1 ":book/name "
+                    :paragraph-2.2 ""
+                    :paragraph-2.3 ":book/publication-date "
+                    :paragraph-2.4 ":db/id "
+                    :paragraph-3 ""}}

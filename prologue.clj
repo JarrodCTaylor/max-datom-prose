@@ -20,4 +20,16 @@
                                   time of TGP's creation was Datomic. This has been widely adopted as the de facto database used to back the machine society.
                                   The popular product, Max Datom, a home automation assistant, is the new must-have lifestyle device in all machine homes.
                                   The elevator pitch is fairly simple: requests come in, humans interpret them and build the appropriate database queries to be
-                                  able to return an intelligible response. Landing a job here could be your ticket out the human hamster wheel farms."}}
+                                  able to return an intelligible response. Landing a job here could be your ticket out the human hamster wheel farms."}
+           :portuguese {:heading ""
+                        :paragraph-1 ""
+                        :paragraph-2 ""
+                        :paragraph-3 ""
+                        :paragraph-4 ""
+                        :paragraph-5 ""}
+           :spanish {:heading ""
+                     :paragraph-1 ""
+                     :paragraph-2 ""
+                     :paragraph-3 ""
+                     :paragraph-4 ""
+                     :paragraph-5 ""}}

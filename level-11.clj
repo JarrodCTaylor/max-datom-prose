@@ -8,4 +8,26 @@
                      :paragraph-5.1 "first+last-name"
                      :paragraph-5.2 " only if a post does not have any "
                      :paragraph-5.3 ":post/dislikes"
-                     :paragraph-6 "You may now continue to level 12."}}
+                     :paragraph-6 "You may now continue to level 12."}
+           :portuguese {:level-title ""
+                        :paragraph-1 (str "" applicant-name "")
+                        :paragraph-1.1 ""
+                        :paragraph-1.2 ""
+                        :paragraph-2 ":farm/escaped attr." ;; "attr" is an abbreviation for attribute
+                        :paragraph-3 "(d/q '[:find ?farm-name\n       :where [?e :farm/name ?farm-name]\n              (not [?e :farm/escaped])] db)"
+                        :paragraph-5 ""
+                        :paragraph-5.1 "first+last-name"
+                        :paragraph-5.2 ""
+                        :paragraph-5.3 ":post/dislikes"
+                        :paragraph-6 ""}
+           :spanish {:level-title ""
+                     :paragraph-1 (str "" applicant-name "")
+                     :paragraph-1.1 ""
+                     :paragraph-1.2 ""
+                     :paragraph-2 ":farm/escaped attr." ;; "attr" is an abbreviation for attribute
+                     :paragraph-3 "(d/q '[:find ?farm-name\n       :where [?e :farm/name ?farm-name]\n              (not [?e :farm/escaped])] db)"
+                     :paragraph-5 ""
+                     :paragraph-5.1 "first+last-name"
+                     :paragraph-5.2 ""
+                     :paragraph-5.3 ":post/dislikes"
+                     :paragraph-6 ""}}

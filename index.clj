@@ -5,4 +5,8 @@
         :portuguese {:subtitle ""
                      :slugline ""
                      :btn-start ""
-                     :btn-continue ""}}
+                     :btn-continue ""}
+        :spanish {:subtitle ""
+                  :slugline ""
+                  :btn-start ""
+                  :btn-continue ""}}

@@ -14,4 +14,32 @@
                      :paragraph-5.3 ":post/author"
                      :paragraph-5.4 " for the user associated with "
                      :paragraph-5.5 ":user/id #uuid \"1B341635-BE22-4ACC-AE5B-D81D8B1B7678\""
-                     :paragraph-6 "You may now continue to level 11."}}
+                     :paragraph-6 "You may now continue to level 11."}
+           :portuguese {:level-title ""
+                        :paragraph-1 (str "" applicant-name "")
+                        :paragraph-2 ""
+                        :paragraph-2.1 ""
+                        :paragraph-2.2 ""
+                        :paragraph-3 ""
+                        :paragraph-4 "(d/q '[:find (count ?workers) ?farm-name\n       :where [?e :farm/name ?farm-name]\n              [:?e :farm/workers ?workers]] db)"
+                        :paragraph-5 ""
+                        :paragraph-5.1 ":user/first+last-name"
+                        :paragraph-5.2 ""
+                        :paragraph-5.3 ":post/author"
+                        :paragraph-5.4 ""
+                        :paragraph-5.5 ":user/id #uuid \"1B341635-BE22-4ACC-AE5B-D81D8B1B7678\""
+                        :paragraph-6 ""}
+           :spanish {:level-title ""
+                     :paragraph-1 (str "" applicant-name "")
+                     :paragraph-2 ""
+                     :paragraph-2.1 ""
+                     :paragraph-2.2 ""
+                     :paragraph-3 ""
+                     :paragraph-4 "(d/q '[:find (count ?workers) ?farm-name\n       :where [?e :farm/name ?farm-name]\n              [:?e :farm/workers ?workers]] db)"
+                     :paragraph-5 ""
+                     :paragraph-5.1 ":user/first+last-name"
+                     :paragraph-5.2 ""
+                     :paragraph-5.3 ":post/author"
+                     :paragraph-5.4 ""
+                     :paragraph-5.5 ":user/id #uuid \"1B341635-BE22-4ACC-AE5B-D81D8B1B7678\""
+                     :paragraph-6 ""}}

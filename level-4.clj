@@ -9,4 +9,28 @@
                     :paragraph-4.3 ":book/name "
                     :paragraph-4.4 "of "
                     :paragraph-4.5 "\"Process and Grow RAM\""
-                    :paragraph-5 "You may now continue to level 5."}}
+                    :paragraph-5 "You may now continue to level 5."}
+          :portuguese {:level-title ""
+                       :paragraph-1 (str "" applicant-name ", ")
+                       :paragraph-1.1 ""
+                       :paragraph-2 "[:find ?e ?farm-id\n :where [?e :worker/age 27] \n        [?e :worker/energy-farm-id ?farm-id]]" ;; query cannot be translated
+                       :paragraph-3 "?e unify ?e :worker/age 27 :worker/energy-farm-id ?farm-id:" ;; The words remaing here should not be translated
+                       :paragraph-4 ""
+                       :paragraph-4.1 ":book/publication-date " ;; Do not transalte, query argument
+                       :paragraph-4.2 ""
+                       :paragraph-4.3 ":book/name "             ;; Do not transalte, query argument
+                       :paragraph-4.4 ""
+                       :paragraph-4.5 "\"Process and Grow RAM\"";; Do not transalte, query result
+                       :paragraph-5 ""}
+          :spanish {:level-title ""
+                    :paragraph-1 (str "" applicant-name ", ")
+                    :paragraph-1.1 ""
+                    :paragraph-2 "[:find ?e ?farm-id\n :where [?e :worker/age 27] \n        [?e :worker/energy-farm-id ?farm-id]]" ;; query cannot be translated
+                    :paragraph-3 "?e unify ?e :worker/age 27 :worker/energy-farm-id ?farm-id:" ;; The words remaing here should not be translated
+                    :paragraph-4 ""
+                    :paragraph-4.1 ":book/publication-date " ;; Do not transalte, query argument
+                    :paragraph-4.2 ""
+                    :paragraph-4.3 ":book/name "             ;; Do not transalte, query argument
+                    :paragraph-4.4 ""
+                    :paragraph-4.5 "\"Process and Grow RAM\"";; Do not transalte, query result
+                    :paragraph-5 ""}}

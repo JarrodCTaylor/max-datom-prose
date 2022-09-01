@@ -1,6 +1,9 @@
 :modal {:english {:title "Options"
                   :level "Level Select"
                   :language "Language Select"}
-        :portuguese {:title "Opções"
-                     :level "Selecionar Nível"
-                     :language "Seleção De Idiomas"}}
+        :portuguese {:title ""
+                     :level ""
+                     :language ""}
+        :spanish {:title ""
+                  :level ""
+                  :language ""}}

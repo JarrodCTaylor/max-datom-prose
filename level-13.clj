@@ -13,4 +13,36 @@
                      :paragraph-5.2 " and "
                      :paragraph-5.3 "{:post/stats (str \"Likes: \" <<postLikeCount>> \" Dislikes: \" <<postDislikeCount>>)}"
                      :paragraph-5.4 " for each post."
-                     :paragraph-6 "You may now continue to level 14."}}
+                     :paragraph-6 "You may now continue to level 14."}
+           :portuguese {:level-title ""
+                        :paragraph-1 (str "" applicant-name "")
+                        :paragraph-1.1 "custom functions"
+                        :paragraph-1.2 ""
+                        :paragraph-2 ""
+                        :paragraph-2.1 "{:stats {:worker/age 27 :days-since-disciplinary-incident 2}"
+                        :paragraph-2.2 ""
+                        :paragraph-2.3 ":farm/top-worker"
+                        :paragraph-2.4 ""
+                        :paragraph-3 "(defn worker-stats [db worker-eid]\n  (let [{:worker/keys [age days-since-disciplinary-incident]} (d/pull db '[:worker/age :worker/days-since-disciplinary-incident] worker-eid)]\n        {:worker/stats {:age age :days-since-disciplinary-incident days-since-disciplinary-incident}}))\n\n(d/q '[:find (pull ?farm [:farm/name]) ?worker-stats\n       :where [?farm :farm/top-worker ?top-worker]\n              [(datomic-scratch/worker-stats $ ?top-worker) ?worker-stats]] db)"
+                        :paragraph-5 ""
+                        :paragraph-5.1 ":user/first+last-name"
+                        :paragraph-5.2 ""
+                        :paragraph-5.3 "{:post/stats (str \"Likes: \" <<postLikeCount>> \" Dislikes: \" <<postDislikeCount>>)}"
+                        :paragraph-5.4 ""
+                        :paragraph-6 ""}
+           :spanish {:level-title ""
+                     :paragraph-1 (str "" applicant-name "")
+                     :paragraph-1.1 "custom functions"
+                     :paragraph-1.2 ""
+                     :paragraph-2 ""
+                     :paragraph-2.1 "{:stats {:worker/age 27 :days-since-disciplinary-incident 2}"
+                     :paragraph-2.2 ""
+                     :paragraph-2.3 ":farm/top-worker"
+                     :paragraph-2.4 ""
+                     :paragraph-3 "(defn worker-stats [db worker-eid]\n  (let [{:worker/keys [age days-since-disciplinary-incident]} (d/pull db '[:worker/age :worker/days-since-disciplinary-incident] worker-eid)]\n        {:worker/stats {:age age :days-since-disciplinary-incident days-since-disciplinary-incident}}))\n\n(d/q '[:find (pull ?farm [:farm/name]) ?worker-stats\n       :where [?farm :farm/top-worker ?top-worker]\n              [(datomic-scratch/worker-stats $ ?top-worker) ?worker-stats]] db)"
+                     :paragraph-5 ""
+                     :paragraph-5.1 ":user/first+last-name"
+                     :paragraph-5.2 ""
+                     :paragraph-5.3 "{:post/stats (str \"Likes: \" <<postLikeCount>> \" Dislikes: \" <<postDislikeCount>>)}"
+                     :paragraph-5.4 ""
+                     :paragraph-6 ""}}

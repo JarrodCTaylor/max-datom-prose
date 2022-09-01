@@ -10,4 +10,30 @@
                      :paragraph-5.3 "Comment Count: <count>"
                      :paragraph-5.4 " for the "
                      :paragraph-5.5 ":post/comments"
-                     :paragraph-6 "You may now continue to level 13."}}
+                     :paragraph-6 "You may now continue to level 13."}
+           :portuguese {:level-title ""
+                        :paragraph-1 (str "" applicant-name "")
+                        :paragraph-1.1 ":xform"
+                        :paragraph-1.2 ""
+                        :paragraph-2 " \"expired batteries\" :xform "
+                        :paragraph-3 "(defn int->str [i]\n  (case i\n        0 \"zero\"\n        1 \"one\"\n        2 \"two\"\n        3 \"three\"\n        \"I have been advised not to talk numbers\"))\n\n(d/q '[:find  (pull ?farm [:farm/name [:farm/expired-battery-count :xform ns/int->str]])\n       :where [?farm :farm/name]]\n     db)"
+                        :paragraph-5 ":xform"
+                        :paragraph-5.1 ":user/first+last-name"
+                        :paragraph-5.2 ""
+                        :paragraph-5.3 "Comment Count: <count>"
+                        :paragraph-5.4 ""
+                        :paragraph-5.5 ":post/comments"
+                        :paragraph-6 ""}
+           :spanish {:level-title ""
+                     :paragraph-1 (str "" applicant-name "")
+                     :paragraph-1.1 ":xform"
+                     :paragraph-1.2 ""
+                     :paragraph-2 " \"expired batteries\" :xform "
+                     :paragraph-3 "(defn int->str [i]\n  (case i\n        0 \"zero\"\n        1 \"one\"\n        2 \"two\"\n        3 \"three\"\n        \"I have been advised not to talk numbers\"))\n\n(d/q '[:find  (pull ?farm [:farm/name [:farm/expired-battery-count :xform ns/int->str]])\n       :where [?farm :farm/name]]\n     db)"
+                     :paragraph-5 ":xform"
+                     :paragraph-5.1 ":user/first+last-name"
+                     :paragraph-5.2 ""
+                     :paragraph-5.3 "Comment Count: <count>"
+                     :paragraph-5.4 ""
+                     :paragraph-5.5 ":post/comments"
+                     :paragraph-6 ""}}

@@ -9,4 +9,22 @@
                     :paragraph-5.1 "Now, modify the query to return the values in the database for "
                     :paragraph-5.2 ":book/author"
                     :paragraph-5.3 ", instead of :book/publication-date."
-                    :paragraph-6 (str "Congratulations, human " applicant-name "! You are officially the newest member of the Max Datom training cohort " (random-uuid) ". Please continue to the training area.")}}
+                    :paragraph-6 (str "Congratulations, human " applicant-name "! You are officially the newest member of the Max Datom training cohort " (random-uuid) ". Please continue to the training area.")}
+          :portuguese {:level-title ""
+                       :paragraph-1 (str "" applicant-name "")
+                       :paragraph-3.1 ""
+                       :paragraph-3.2 ""
+                       :paragraph-4 ""
+                       :paragraph-5.1 ""
+                       :paragraph-5.2 ":book/author"
+                       :paragraph-5.3 ", instead of :book/publication-date." ;; `:book/publication-date needs to stay untranslated`
+                       :paragraph-6 (str "" applicant-name "" (random-uuid) "")}
+          :spanish {:level-title ""
+                    :paragraph-1 (str "" applicant-name "")
+                    :paragraph-3.1 ""
+                    :paragraph-3.2 ""
+                    :paragraph-4 ""
+                    :paragraph-5.1 ""
+                    :paragraph-5.2 ":book/author"
+                    :paragraph-5.3 ", instead of :book/publication-date." ;; `:book/publication-date needs to stay untranslated`
+                    :paragraph-6 (str "" applicant-name "" (random-uuid) "")}}

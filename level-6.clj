@@ -7,4 +7,24 @@
                     :paragraph-4 "Modify the query to return any entities referencing the id in the query as a value for "
                     :paragraph-4.1 ":book/author "
                     :paragraph-4.2 "using the underscore prefix syntax."
-                    :paragraph-5 "You may now continue to level 7."}}
+                    :paragraph-5 "You may now continue to level 7."}
+          :portuguese {:level-title ""
+                       :paragraph-1 (str "" applicant-name "")
+                       :paragraph-1.1 ""
+                       :paragraph-1.2 ""
+                       :paragraph-2 "[:find (pull ?e [:farm/_workers])\n :where [?e :worker/id #uuid \"DC122EEA-5D92-45CE-98ED-874AFA648CEE\"]"
+                       :paragraph-3 ":farm/workers [:worker/id #uuid \"DC122EEA-5D92-45CE-98ED-874AFA648CEE\"]"
+                       :paragraph-4 ""
+                       :paragraph-4.1 ":book/author "
+                       :paragraph-4.2 ""
+                       :paragraph-5 ""}
+          :spanish {:level-title ""
+                    :paragraph-1 (str "" applicant-name "")
+                    :paragraph-1.1 ""
+                    :paragraph-1.2 ""
+                    :paragraph-2 "[:find (pull ?e [:farm/_workers])\n :where [?e :worker/id #uuid \"DC122EEA-5D92-45CE-98ED-874AFA648CEE\"]"
+                    :paragraph-3 ":farm/workers [:worker/id #uuid \"DC122EEA-5D92-45CE-98ED-874AFA648CEE\"]"
+                    :paragraph-4 ""
+                    :paragraph-4.1 ":book/author "
+                    :paragraph-4.2 ""
+                    :paragraph-5 ""}}

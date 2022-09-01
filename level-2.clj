@@ -11,4 +11,30 @@
                     :paragraph-7 "The relevant database schema and the transactions used to create the database will always be provided for you. If you inspect the schema you will find that the attribute :book/author is a reference to another entity. The query you ran returned the entity IDs that are referenced by :book/author."
                     :paragraph-8 "Since humans are not as good at recalling long numbers as they are at pushing random buttons, "
                     :paragraph-8.1 "modify the query to return the values for the attribute :author/first+last-name"
-                    :paragraph-9 "You may now continue to level 3."}}
+                    :paragraph-9 "You may now continue to level 3."}
+          :portuguese {:level-title ""
+                       :paragraph-1 (str "" applicant-name "")
+                       :paragraph-2 ""
+                       :paragraph-3.1 ""
+                       :paragraph-3.2 ""
+                       :paragraph-3.3 ""
+                       :paragraph-4 " :book/author " ;; :book/author remains untranslated
+                       :paragraph-5 ""
+                       :paragraph-6 ""
+                       :paragraph-7 ":book/author." ;; :book/author remains untranslated
+                       :paragraph-8 ""
+                       :paragraph-8.1 ":author/first+last-name" ;; :author/first+last-name remains untranslated
+                       :paragraph-9 ""}
+          :spanish {:level-title ""
+                    :paragraph-1 (str "" applicant-name "")
+                    :paragraph-2 ""
+                    :paragraph-3.1 ""
+                    :paragraph-3.2 ""
+                    :paragraph-3.3 ""
+                    :paragraph-4 " :book/author " ;; :book/author remains untranslated
+                    :paragraph-5 ""
+                    :paragraph-6 ""
+                    :paragraph-7 ":book/author." ;; :book/author remains untranslated
+                    :paragraph-8 ""
+                    :paragraph-8.1 ":author/first+last-name" ;; :author/first+last-name remains untranslated
+                    :paragraph-9 ""}}

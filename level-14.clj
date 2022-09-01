@@ -14,4 +14,20 @@
                      :paragraph-5 "Notice how the most specific clause :worker/id is first. If the query had :farm/workers first that would not be at all selective,
                                   and would force the query engine to consider every worker in the database before narrowing down to a specific worker-id. Putting the most selective clause first can cause dramatic improvements in performance."
                      :paragraph-6 "Reorder the clauses in the query to the right so that the more selective clauses come first."
-                     :paragraph-7 "You may now continue to level 15."}}
+                     :paragraph-7 "You may now continue to level 15."}
+           :portuguese {:level-title ""
+                        :paragraph-1 (str "" applicant-name "" applicant-name "")
+                        :paragraph-2 ""
+                        :paragraph-3 ""
+                        :paragraph-4 "(d/q '[:find ?farm-name\n       :in $ ?worker-id\n       :where [?worker :worker/id ?worker-id]\n              [?farm :farm/workers ?worker]\n              [:?farm :farm/name ?farm-name]] db \"123-abc\")"
+                        :paragraph-5 ":worker/id :farm/workers"
+                        :paragraph-6 ""
+                        :paragraph-7 ""}
+           :spanish {:level-title ""
+                     :paragraph-1 (str "" applicant-name "" applicant-name "")
+                     :paragraph-2 ""
+                     :paragraph-3 ""
+                     :paragraph-4 "(d/q '[:find ?farm-name\n       :in $ ?worker-id\n       :where [?worker :worker/id ?worker-id]\n              [?farm :farm/workers ?worker]\n              [:?farm :farm/name ?farm-name]] db \"123-abc\")"
+                     :paragraph-5 ":worker/id :farm/workers"
+                     :paragraph-6 ""
+                     :paragraph-7 ""}}
