@@ -21,17 +21,17 @@
                                                                                 de fazendas de trabalho não fossem estritamente proibidas. Para comemorar seu novo status eu estou presenteando você com sua própria camiseta polo do Max Datom (TM). Nós entendemos
                                                                                 que por alguma razão, camisetas polo fazem humanos se sentirem parte de um time. A camiseta é sua. O custo dela vai ser deduzido de seus futuros créditos ganhos.")
                         :paragraph-2 "Chega de comemorações. Você ainda tem muito a aprender. Uma"
-                        :paragraph-2.1 "aggregation function (função agregada)"
+                        :paragraph-2.1 "função agregada"
                         :paragraph-2.2 "aparece em uma cláusula de busca e transforma um resultado. Funções agregadas podem receber variáveis, constantes ou src-vars como argumentos."
-                        :paragraph-3 "Por exemplo, para retornar uma contagem de trabalhadores atribuídos a cada fazenda de energia junto com o nome da fazenda, a seguinte consulta poderia ser feita;"
+                        :paragraph-3 "Por exemplo, para retornar uma contagem de trabalhadores atribuídos a cada fazenda de energia junto com o nome da fazenda, a seguinte query poderia ser feita;"
                         :paragraph-4 "(d/q '[:find (count ?workers) ?farm-name\n       :where [?e :farm/name ?farm-name]\n              [:?e :farm/workers ?workers]] db)"
-                        :paragraph-5 "Depois de inspecionar o novo schema do conjunto de dados, atualize a consulta para retornar o"
+                        :paragraph-5 "Depois de inspecionar o novo schema do conjunto de dados, atualize a query para retornar o"
                         :paragraph-5.1 ":user/first+last-name"
                         :paragraph-5.2 "e contagem de"
                         :paragraph-5.3 ":post/author"
                         :paragraph-5.4 "para o usuário associado com"
                         :paragraph-5.5 ":user/id #uuid \"1B341635-BE22-4ACC-AE5B-D81D8B1B7678\""
-                        :paragraph-6 "Você pode agora continuar para o nível 11."}
+                        :paragraph-6 "Você pode seguir para o nível 11."}
            :spanish {:level-title ""
                      :paragraph-1 (str "" applicant-name "")
                      :paragraph-2 ""
