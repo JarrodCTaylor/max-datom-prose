@@ -16,24 +16,24 @@
                     :paragraph-7.3 ":book/name {:book/author [:author/first-name :author/last-name]} "
                     :paragraph-7.4 "to retrieve the desired attributes."
                     :paragraph-8 "You may now continue to level 6."}
-          :portuguese {:level-title ""
-                       :paragraph-1 (str "" applicant-name ", ")
-                       :paragraph-1.1 ""
-                       :paragraph-2 ""
-                       :paragraph-3 ""
-                       :paragraph-4 ""
-                       :paragraph-5 ""
+          :portuguese {:level-title "Nível 5"
+                       :paragraph-1 (str "Humano " applicant-name ", ")
+                       :paragraph-1.1 "é uma maneira declarativa de fazer seleções hierárquicas (e possivelmente aninhadas) de informações sobre entidades. Pull aplica um padrão a uma coleção de entidades, construindo um mapa para cada entidade."
+                       :paragraph-2 "*suspiro de andróide* A julgar pelo protótipo de olhar humano confuso em seu rosto, mesmo após minha explicação detalhada e precisa, você não entende o que é pull ou por que será incrivelmente útil em seus esforços."
+                       :paragraph-3 "Comece rodando a query disponibilizada."
+                       :paragraph-4 "Os Entity IDs por si só podem deixar muito para a imaginação."
+                       :paragraph-5 "Na query substitua"
                        :paragraph-5.1 " :find ?e "
-                       :paragraph-5.2 ""
+                       :paragraph-5.2 "com "
                        :paragraph-5.3 ":find (pull ?e [*]) "
-                       :paragraph-5.4 ""
-                       :paragraph-6 ":book/author"
-                       :paragraph-7 ""
+                       :paragraph-5.4 "e rode novamente."
+                       :paragraph-6 "Os padrões pull suportam uma variedade de opções de navegação de atributo. A especificação coringa* usada aqui extrai todos os atributos de uma entidade. O valor de :book/author é uma referência a uma entidade que representa um autor (consulte a guia Schema para obter uma representação visual). Neste caso, a informação que nos interessa é o nome do livro e o nome e sobrenome do autor."
+                       :paragraph-7 "Substitua"
                        :paragraph-7.1 "* "
-                       :paragraph-7.2 ""
+                       :paragraph-7.2 "padrão por"
                        :paragraph-7.3 ":book/name {:book/author [:author/first-name :author/last-name]} "
-                       :paragraph-7.4 ""
-                       :paragraph-8 ""}
+                       :paragraph-7.4 "para recuperar os atributos desejados."
+                       :paragraph-8 "Você pode seguir para o nível 6."}
           :spanish {:level-title ""
                     :paragraph-1 (str "" applicant-name ", ")
                     :paragraph-1.1 ""
