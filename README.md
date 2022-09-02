@@ -16,7 +16,7 @@ Translations for all languages are welcome. If you have and interest in providin
 | level- 4     | ✅       | ✅         | ❌         |
 | level- 5     | ✅       | ✅         | ❌         |
 | level- 6     | ✅       | ✅         | ❌         |
-| level- 7     | ✅       | ❌         | ❌         |
+| level- 7     | ✅       | ✅         | ❌         |
 | level- 8     | ✅       | ❌         | ❌         |
 | level- 9     | ✅       | ❌         | ❌         |
 | level- 10    | ✅       | ✅         | ❌         |
