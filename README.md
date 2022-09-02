@@ -11,7 +11,7 @@ Translations for all languages are welcome. If you have and interest in providin
 | index        | ✅       | ✅         | ❌         |
 | prologue     | ✅       | ✅         | ❌         |
 | level- 1     | ✅       | ✅         | ❌         |
-| level- 2     | ✅       | ❌         | ❌         |
+| level- 2     | ✅       | ✅         | ❌         |
 | level- 3     | ✅       | ✅         | ❌         |
 | level- 4     | ✅       | ❌         | ❌         |
 | level- 5     | ✅       | ❌         | ❌         |
