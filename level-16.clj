@@ -10,7 +10,7 @@
                      :paragraph-5.1 ":transfer/id #uuid \"59B9C791-74CE-4C51-A4BC-EF6D06BEE2DBA\""
                      :paragraph-6 " This is interesting, it appears as though the value was added and then later retracted and replaced with a different value. You may now continue to level 17."}
            :portuguese {:level-title "Nível 16"
-                        :paragraph-1 (str "Humano" applicant-name ", a transferência pode parecer normal agora, mas há uma razão pela qual os fundos não chegaram ao 
+                        :paragraph-1 (str "Humano" applicant-name ", a transação pode parecer normal agora, mas há uma razão pela qual os fundos não chegam ao 
                                                                     destinatário pretendido. Ao alavancar a uma")
                         :paragraph-1.1 "history database" ;; This is linked to the docs about history databases
                         :paragraph-1.2 "você pode fazer uma query para consultar todas as afirmações e retratações independentemente de quando elas ocorreram."
@@ -19,7 +19,7 @@
                         :paragraph-4 "A consulta acima retornará todas as entidades, valores, transações e operações para quaisquer afirmações ou retrações para o atributo :work/rating da entidade associada a :worker/id \"123-abc\""
                         :paragraph-5 "Use o histórico db para fazer uma query e consultar e, v, t e op para o atributo :transfer/to associado com "
                         :paragraph-5.1 ":transfer/id #uuid \"59B9C791-74CE-4C51-A4BC-EF6D06BEE2DBA\""
-                        :paragraph-6 "Isso é interessante, parece que o valor foi adicionado e depois retraído e substituído por um valor diferente. Agora você pode continuar até o nível 17."}
+                        :paragraph-6 "Isso é interessante, parece que o valor foi adicionado e depois retirado e substituído por um valor diferente. Você pode seguir para o nível 17."}
            :spanish {:level-title ""
                      :paragraph-1 (str "" applicant-name "")
                      :paragraph-1.1 "history database" ;; This is linked to the docs about history databases
