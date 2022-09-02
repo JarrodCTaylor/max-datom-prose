@@ -16,7 +16,7 @@
                        :paragraph-1.1 "Collection Binding"
                        :paragraph-1.2 "vincula uma única variável a vários valores passados como uma coleção. Usando a "
                        :paragraph-1.3 "[variable ...]"
-                       :paragraph-1.4 "sintaxe isso pode ser usado para fazer \"or\" perguntas, como qual é a capacidade e o endereço associado a fazendas chamadas 'Power From the people' ou 'The Big Wheel'?"
+                       :paragraph-1.4 "sintaxe isso pode ser usado para fazer \"or\" perguntas, como: Qual é a capacidade e o endereço associado a fazendas chamadas 'Power From the people' ou 'The Big Wheel'?"
                        :paragraph-2 "(d/q '[:find (pull ?e [:farm/capacity :farm/address])\n       :in $ [?farm-name ...]\n       :where [?e :farm/name ?farm-name]] db [\"Power From the People\" \"The Big Wheel\"])"
                        :paragraph-3 "Modifique a query para usar os author-ids como uma entrada para a query, a fim de recuperar os"
                        :paragraph-3.1 "primeiros"
