@@ -14,15 +14,15 @@
                     :paragraph-9 "You may now continue to level 3."}
           :portuguese {:level-title "Nível 2"
                        :paragraph-1 (str "Humano " applicant-name ", esta é uma virada em sua vida simples baseada em carbono. Não desperdice esta oportunidade.")
-                       :paragraph-2 "Já que você é a) humano e b) aqui eu posso presumir que você sabe muito pouco sobre Datomic. Nós vamos começar devagar. Isso não é por bondade, mas por necessidade. Descobrimos que sua espécie aprende muito lentamente."
+                       :paragraph-2 "Já que você é a) humano e b) aqui eu posso presumir que você sabe muito pouco sobre Datomic. Nós vamos começar devagar. Não por bondade, mas por necessidade. Descobrimos que sua espécie aprende muito lentamente."
                        :paragraph-3.1 "Datomic é construído a partir de fatos atômicos chamados datoms"
-                       :paragraph-3.2 "Um datom é uma lista finita e ordenadade 5 elementos que chamamos de tupla. Os cinco valores em cada datom são os seguintes: [<entity-id> <attribute> <value> <transaction-id> <operation>]. "
+                       :paragraph-3.2 "Um datom é uma lista finita e ordenada de 5 elementos que chamamos de tupla. Os cinco valores em cada datom são os seguintes: [<entity-id> <attribute> <value> <transaction-id> <operation>]. "
                        :paragraph-3.3 "estes executam a query descrita pela query e os argumentos fornecidos e retornam uma coleção de tuplas."
-                       :paragraph-4 "Analisando a query de exemplo à direita ':find' especifica os elementos nas tuplas a serem retornados e ':where' limita os resultados retornados apenas para aqueles que correspondem ao padrão de dados. Como é comumente observado em códigos Clojure, o _ é usado para denotar partes do padrão de dados que devem ser ignoradas. 
+                       :paragraph-4 "Analisando a query de exemplo à direita ':find' especifica os elementos nas tuplas a serem retornados e ':where' limita os resultados retornados apenas para aqueles que correspondem ao padrão de dados. Como é comumente observado em códigos Clojure, o _ é usado para evidenciar partes do padrão de dados que devem ser ignoradas. 
                        Nesse caso, o ID da entity 'db' é o único argumento fornecido. Esta query retornará tuplas contendo um elemento que será o valor onde existe o atributo :book/author."
                        :paragraph-5 "Rode esta query agora."
                        :paragraph-6 "Você parece se destacar na tarefa não qualificada de apertar um botão pré-preenchido. Pena que não exista mais demanda no mundo para uma coisa dessas."
-                       :paragraph-7 "O schema relevante do banco de dados e as transações usadas para criar o banco de dados sempre serão dados para você. Se você inspecionar o schema, verá que o atributo :book/author é uma referência a outra entidade. A query que você executou retornou os IDs de entidade referenciados por :book/author."
+                       :paragraph-7 "O esquema (também conhecido como schema) relevante do banco de dados e as transações usadas para criar o banco de dados sempre serão dados para você. Se você inspecionar o esquema, verá que o atributo :book/author é uma referência a outra entidade. A query que você executou retornou os IDs de entidade referenciados por :book/author."
                        :paragraph-8 "Como os humanos não são tão bons em lembrar números longos quanto em apertar botões aleatórios, "
                        :paragraph-8.1 "modifique a query para retornar os valores para o atributo :author/first+last-name" 
                        :paragraph-9 "Você pode seguir para o nível 3."}
