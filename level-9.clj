@@ -11,19 +11,19 @@
                     :paragraph-3.3 "last"
                     :paragraph-3.4 " names of both authors."
                     :paragraph-4 "You may now continue to level 10."}
-          :portuguese {:level-title ""
-                       :paragraph-1 (str "" applicant-name "")
-                       :paragraph-1.1 ""
-                       :paragraph-1.2 ""
+          :portuguese {:level-title "Nível 9"
+                       :paragraph-1 (str "Humano " applicant-name ", uma ")
+                       :paragraph-1.1 "Collection Binding"
+                       :paragraph-1.2 "vincula uma única variável a vários valores passados como uma coleção. Usando a "
                        :paragraph-1.3 "[variable ...]"
-                       :paragraph-1.4 ""
+                       :paragraph-1.4 "sintaxe isso pode ser usado para fazer \"or\" perguntas, como qual é a capacidade e o endereço associado a fazendas chamadas 'Power From the people' ou 'The Big Wheel'?"
                        :paragraph-2 "(d/q '[:find (pull ?e [:farm/capacity :farm/address])\n       :in $ [?farm-name ...]\n       :where [?e :farm/name ?farm-name]] db [\"Power From the People\" \"The Big Wheel\"])"
-                       :paragraph-3 "author-ids"
-                       :paragraph-3.1 ""
-                       :paragraph-3.2 ""
-                       :paragraph-3.3 ""
-                       :paragraph-3.4 ""
-                       :paragraph-4 ""}
+                       :paragraph-3 "Modifique a query para usar os author-ids como uma entrada para a query, a fim de recuperar os"
+                       :paragraph-3.1 "primeiros"
+                       :paragraph-3.2 "e"
+                       :paragraph-3.3 "últimos"
+                       :paragraph-3.4 " nomes de ambos os autores."
+                       :paragraph-4 "Você pode seguir para o nível 10."}
           :spanish {:level-title ""
                     :paragraph-1 (str "" applicant-name "")
                     :paragraph-1.1 ""
