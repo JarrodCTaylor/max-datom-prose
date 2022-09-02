@@ -8,7 +8,7 @@
                      :paragraph-4 "jarrod@cognitect.com"
                      :paragraph-5 "your id:"}
            :portuguese {:level-title "Epílogo"
-                        :paragraph-1 (str "Humano" "applicant-name", você foi bem. Na verdade, você está pronto para uma promoção. Se você for aprovado, você pode ser a segunda alternativa na nossa fila para se tornar o terceiro junior manager. 
+                        :paragraph-1 (str "Humano" "applicant-name", você foi bem. Na verdade, você está pronto para uma promoção. Se você for aprovado, você pode ser a segunda alternativa na nossa fila para se tornar o terceiro júnior manager. 
                                           Uma promoção como esta garante um pouco de folga. Mesmo que você esteja aqui apenas por catorze horas hoje, vá em frente e tire uma folga esta tarde para refletir sobre sua conquista.")
                         :paragraph-2 "Você aprendeu muito dos conceitos fundamentais de Datomic. Agora você deve se sentir confortável instalando e experimentando."
                         :paragraph-2.1 "dev-local"
