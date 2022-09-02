@@ -27,6 +27,6 @@ Translations for all languages are welcome. If you have and interest in providin
 | level- 15    | ✅       | ✅         | ❌         |
 | level- 16    | ✅       | ✅         | ❌         |
 | level- 17    | ✅       | ✅         | ❌         |
-| level-select | ✅       | ❌         | ❌         |
+| level-select | ✅       | ✅         | ❌         |
 | modal        | ✅       | ✅         | ❌         |
 | epilogue     | ✅       | ✅         | ❌         |
