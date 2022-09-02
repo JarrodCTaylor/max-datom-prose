@@ -5,9 +5,9 @@
                      :paragraph-2.1 ":transfer/id #uuid \"59B9C791-74CE-4C51-A4BC-EF6D06BEE2DBA\""
                      :paragraph-3 "That transfer looks like we would expect, but why did the funds not make it to Mr. CD? Continue to level 16 to investigate further."}
            :portuguese {:level-title "Nível 15"
-                        :paragraph-1 (str "Humano " applicant-name ", nós temos razões para acreditar que a Silicone Crime Family está fazendo uma transferência corrupta de moeda crypto. Há inúmeros relatórios
-                                                                      de requisições de transferência quais o dinheiro é removido de uma conta mas nunca chega ao destinatário pretendido. Nós precisamos reunir evidências concretas de atividade criminal.")
-                        :paragraph-2 "Puxe todos os dados de :transfer/from e :transfer/to incluindo :account/owner para uma transferência informada recentemente "
+                        :paragraph-1 (str "Humano " applicant-name ", nós temos razões para acreditar que a Silicone Crime Family está fazendo uma transação corrupta de criptomoeda. Há inúmeros relatórios
+                                                                      de requisições de transações quais o dinheiro é removido de uma conta mas nunca chega ao destinatário pretendido. Nós precisamos reunir evidências concretas de atividade criminal.")
+                        :paragraph-2 "Puxe todos os dados de :transfer/from e :transfer/to incluindo :account/owner para uma transação reportada recentemente "
                         :paragraph-2.1 ":transfer/id #uuid \"59B9C791-74CE-4C51-A4BC-EF6D06BEE2DBA\""
                         :paragraph-3 "Essa transferência parece normal, mas por que os fundos não chegaram ao Sr. CD? Continue até o nível 16 para investigar mais."}
            :spanish {:level-title ""
