@@ -22,15 +22,15 @@
                        :paragraph-4.4 "de"
                        :paragraph-4.5 "\"Process and Grow RAM\""
                        :paragraph-5 "Você pode seguir para o nível 5."}
-          :spanish {:level-title ""
-                    :paragraph-1 (str "" applicant-name ", ")
-                    :paragraph-1.1 ""
+          :spanish {:level-title "Nivel 4"
+                    :paragraph-1 (str "Human" applicant-name ", ")
+                    :paragraph-1.1 "Ocurre cuando una variable aparece en más de un patrón de data. En el siguiente query, ?e aparece dos veces: "
                     :paragraph-2 "[:find ?e ?farm-id\n :where [?e :worker/age 27] \n        [?e :worker/energy-farm-id ?farm-id]]" ;; query cannot be translated
-                    :paragraph-3 "?e unify ?e :worker/age 27 :worker/energy-farm-id ?farm-id:" ;; The words remaing here should not be translated
-                    :paragraph-4 ""
+                    :paragraph-3 "Concordancias de la variable ?e deben de ser unificadas, por ejemplo cuando representan el mismo valor en cada cláusula para satisfacer al set de cláusulas.  Una concordancia e? debe tener a :worker/age 27 y un valor para :worker/energy-farm-id que será vinculado a ?farm-id:"
+                    :paragraph-4 "Modifica el query para retornar el "
                     :paragraph-4.1 ":book/publication-date " ;; Do not transalte, query argument
-                    :paragraph-4.2 ""
+                    :paragraph-4.2 "Por la entidad con un"
                     :paragraph-4.3 ":book/name "             ;; Do not transalte, query argument
-                    :paragraph-4.4 ""
+                    :paragraph-4.4 "de"
                     :paragraph-4.5 "\"Process and Grow RAM\"";; Do not transalte, query result
-                    :paragraph-5 ""}}
+                    :paragraph-5 "Puedes continuar al nivel 5. "}}

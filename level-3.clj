@@ -6,7 +6,7 @@
                        :paragraph-1 (str "Humano " applicant-name ", até agora nós usamos o _ para indicar que estamos ignorando a entity-id.")
                        :paragraph-2 "Modifique a query adicionando a segunda variável ?e para :find e referencie-a na posição entity-id da cláusula :where para retornar tanto o entity-id quanto o valor de :author/first+last-name."
                        :paragraph-3 "Você agora pode seguir para o nível 4."}
-          :spanish {:level-title ""
-                    :paragraph-1 (str "" applicant-name "")
-                    :paragraph-2 "?e :find :where :author/first+last-name." ;; ?e :find :where :author/first+last-name should remain untranslated.
-                    :paragraph-3 ""}}
+          :spanish {:level-title "Nivel 3"
+                    :paragraph-1 (str "Humano" applicant-name ", hasta ahora hemos estado usando el símbolo _ para indicar que estamos ignorando a entity-id.")
+                    :paragraph-2 "Modifica el query para agregar una segunda variable ?e para :find y relacionala a la posición de entity-id de la cláusula :where para retornar tanto entity-id como el valor de :author/first+last-name"
+                    :paragraph-3 "Puedes continuar al nivel 4."}}

@@ -4,6 +4,6 @@
         :portuguese {:title "Opções"
                      :level "Selecione o Nível"
                      :language "Selecione a Língua"}
-        :spanish {:title ""
-                  :level ""
-                  :language ""}}
+        :spanish {:title "Opciones"
+                  :level "Seleccionar Nivel"
+                  :language "Selecionar Idioma"}}

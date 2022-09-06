@@ -1,9 +1,9 @@
 :level-2 {:english {:level-title "Level 2"
                     :paragraph-1 (str "Human " applicant-name ", this is a turning point in your simple carbon-based life. Do not squander this opportunity.")
                     :paragraph-2 "Since you are a) human and b) here I assume you know very little about Datomic. We will begin slowly. This is not out of kindness but out of necessity. We have found your species is very slow to learn. "
-                    :paragraph-3.1 "Datomic is built from atomic facts called "
-                    :paragraph-3.2 ". A datom is a finite ordered list of 5 elements referred to as a tuple. The five values in every datom are the following: [<entity-id> <attribute> <value> <transaction-id> <operation>]. "
-                    :paragraph-3.3 " performs the query described by the provided query and args then returns a collection of tuples."
+                    :paragraph-3.1 "Datomic is built from atomic facts called Datoms."
+                    :paragraph-3.2 "A datom is a finite ordered list of 5 elements referred to as a tuple. The five values in every datom are the following: [<entity-id> <attribute> <value> <transaction-id> <operation>]. "
+                    :paragraph-3.3 "These perform the query described by the provided query and args then returns a collection of tuples."
                     :paragraph-4 "Analyzing the example query to the right ':find' specifies the elements in the tuples to be returned and ':where' limits the results returned to only those matching the data pattern. As is commonly observed in Clojure code the _ is used to denote portions of the data pattern intended to be ignored.
                     In this case the entity id. 'db' is the only provided argument. This query will return tuples containing one element which will be the value where the :book/author attribute exists."
                     :paragraph-5 "Run this query now."
@@ -26,16 +26,17 @@
                        :paragraph-8 "Como os humanos não são tão bons em lembrar números longos quanto em apertar botões aleatórios, "
                        :paragraph-8.1 "modifique a query para retornar os valores para o atributo :author/first+last-name" 
                        :paragraph-9 "Você pode seguir para o nível 3."}
-          :spanish {:level-title ""
-                    :paragraph-1 (str "" applicant-name "")
-                    :paragraph-2 ""
-                    :paragraph-3.1 ""
-                    :paragraph-3.2 ""
-                    :paragraph-3.3 ""
-                    :paragraph-4 " :book/author " ;; :book/author remains untranslated
-                    :paragraph-5 ""
-                    :paragraph-6 ""
-                    :paragraph-7 ":book/author." ;; :book/author remains untranslated
-                    :paragraph-8 ""
-                    :paragraph-8.1 ":author/first+last-name" ;; :author/first+last-name remains untranslated
-                    :paragraph-9 ""}}
+          :spanish {:level-title "Nivel 2"
+                    :paragraph-1 (str "Humano" applicant-name ",  este es un momento crítico para tu simple vida basada en carbón. No desperdicies esta oportunidad.")
+                    :paragraph-2 "Como eres a) un humano y b) estás aquí, supongo que sabes muy poco sobre Datomic. Vamos a empezar lento. No por amabilidad, sino por necesidad. Hemos encontrado que tu especie es muy lenta para aprender. "
+                    :paragraph-3.1 "Datomic está construido por hechos atómicos llamados Datoms."
+                    :paragraph-3.2 "Un datom es una lista ordenada finita de 5 elementos a la que se refiere como tupla. Los cinco valores en cada datom son los siguientes: [<entity-id> <attribute> <value> <transaction-id> <operation>]."
+                    :paragraph-3.3 "Estos llevan a cabo el query descrito por el query y argumentos proveídos, y después regresan una colección de tuplas. "
+                    :paragraph-4 "Analizando el query de ejemplo a la derecha, ‘find:’ específica los elementos en la tupla que serán retornados, y ‘:where’ limita los resultados retornados a solo aquellos que concuerden con el patrón de data. Como es comúnmente observado en código Clojure el símbolo  _ es usado para denotar porciones del patrón de data destinado a ser ignorado. 
+                    En este caso la entidad id. ‘db’ es el único argumento proveído. Este query retornara tuplas que contengan un elemento el cual será el valor donde el atributo :book/author exista."
+                    :paragraph-5 "Ejecuta este query ahora."
+                    :paragraph-6 "Parece ser que destacar en la tarea no calificada de presionar un botón previamente poblado. Lástima que no hay más demanda en el mundo para tal cosa. "
+                    :paragraph-7 "El esquema relevante (también conocido como schema) y las transacciones usadas para crear la base de datos siempre te serán proveídos. Si inspeccionas el esquema encontrarás que el atributo :book/author es una referencia a otra entidad. El query que ejecutaste retorna los IDs de la entidad que son referenciados por :book/author."
+                    :paragraph-8 "Como los humanos no son tan buenos recordando números largos como son presionando botones al azar, "
+                    :paragraph-8.1 "Modifica el query para retornar los valores para el atributo :author/first+last-name"
+                    :paragraph-9 "Puedes continuar al nivel 3."}}

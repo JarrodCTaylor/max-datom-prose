@@ -24,16 +24,16 @@
                        :paragraph-3.3 "últimos"
                        :paragraph-3.4 " nomes de ambos os autores."
                        :paragraph-4 "Você pode seguir para o nível 10."}
-          :spanish {:level-title ""
-                    :paragraph-1 (str "" applicant-name "")
-                    :paragraph-1.1 ""
-                    :paragraph-1.2 ""
+          :spanish {:level-title "Nivel 9"
+                    :paragraph-1 (str "Humano" applicant-name "una")
+                    :paragraph-1.1 "Collection Binding (Unión de Conexiones)"
+                    :paragraph-1.2 "une una única variable a varios valores pasados como una colección. Usando la sintaxis"
                     :paragraph-1.3 "[variable ...]"
-                    :paragraph-1.4 ""
+                    :paragraph-1.4 "Esto puede ser usado para hacer preguntas del tipo \"or\" tales como: ¿Cuál es la capacidad y dirección asociada con granjas llamadas ya sea 'Power From the People' or 'The Big Wheel'?"
                     :paragraph-2 "(d/q '[:find (pull ?e [:farm/capacity :farm/address])\n       :in $ [?farm-name ...]\n       :where [?e :farm/name ?farm-name]] db [\"Power From the People\" \"The Big Wheel\"])"
-                    :paragraph-3 "author-ids"
-                    :paragraph-3.1 ""
-                    :paragraph-3.2 ""
-                    :paragraph-3.3 ""
-                    :paragraph-3.4 ""
-                    :paragraph-4 ""}}
+                    :paragraph-3 "Modifica el query para usar author-ids como una entrada al query para obtener el "
+                    :paragraph-3.1 "nombre"
+                    :paragraph-3.2 "y"
+                    :paragraph-3.3 "apellido"
+                    :paragraph-3.4 "de ambos autores"
+                    :paragraph-4 "Puedes continuar al nivel 10"}}
