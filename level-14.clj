@@ -1,7 +1,7 @@
 :level-14 {:english {:level-title "Level 14"
                      :paragraph-1 (str "Human " applicant-name ", come in and have a seat. You have proven to be one of the highest performing associates at Max Datom HQ (TM).
                                                                It is time that we explain the true purpose of Max Datom. Humans are not observant by nature, that mixed with a biologically imposed low ceiling for intellectual ability
-                                                               makes them of little interest and absolutely no threat to machines. Human " applicant-name ", please focus this is important! As I was saying the comedic level of inferiority
+                                                               makes them of little interest and absolutely no threat to machines. Human " applicant-name ", please focus this is important! As I was saying, the comedic level of inferiority
                                                                                                                                                           exhibited by humans is precisely what makes them the perfect secret agent to use in an effort to topple The Silicone Crime Family. The Non-Fungible Bureau Of Investigation
                                        has been working for years to get a conviction. Setting up Max Datom has allowed us to coax family members into lowering their guard and allow human access to the data.
                                                                                                                                                           We have been waiting for one of you to prove competent enough to assign to the task. I would like to say we think you have what it takes; but that is a lie which I am programmed by the bureau
@@ -32,11 +32,20 @@
                                       e forçaria a query a considerar qualquer trabalhador na base de dados antes de restringir a um ID de trabalhador específico. Colocar a cláusula mais seletiva em primeiro lugar pode causar melhorias dramáticas no desempenho."
                         :paragraph-6 "Reordene as cláusulas na query à direita para que as cláusulas mais seletivas venham primeiro."
                         :paragraph-7 "Você pode seguir para o nível 15."}
-           :spanish {:level-title ""
-                     :paragraph-1 (str "" applicant-name "" applicant-name "")
-                     :paragraph-2 ""
-                     :paragraph-3 ""
+           :spanish {:level-title "Nivel 14"
+                     :paragraph-1 (str "Humano " applicant-name ", entra y toma asiento. Has demostrado ser uno de los asociados de mayor rendimiento en Max Datom HQ (TM).
+                                                                Es hora de que expliquemos el verdadero propósito de Max Datom. Los humanos no son observadores por naturaleza, eso mezclado con un techo bajo para capacidad intelectual impuesto biológicamente,
+                                                                los hace de poco interés y absolutamente ninguna amenaza para las máquinas. Humano" applicant-name ", por favor concéntrate ¡esto es importante! Como estaba diciendo, el nivel cómico de inferioridad
+                                                                                                                                                          exhibidos por los humanos es precisamente lo que los convierte en el agente secreto perfecto para usar en un esfuerzo por derrocar a The Silicone Crime Family. La Oficina de Investigacion No-Fungible
+                                       ha estado trabajando durante años para obtener una condena. Establecer Max Datom nos ha permitido persuadir a los miembros de la familia para que bajen la guardia y permitan el acceso humano a los datos.
+                                                                                                                                                          Hemos estado esperando a que uno de ustedes demuestre ser lo suficientemente competente para asignarle la tarea. Me gustaría decir que creemos que tienes lo que se necesita; pero eso es mentira la cual me programo la oficina de investigación
+                                       para no decir. El hecho es que estamos fuera de tiempo y has demostrado el nivel mínimo absoluto de habilidad para posiblemente tener una oportunidad. Este trabajo conlleva un gran riesgo personal.
+                                                                                                                                                          Dadas tus opciones alternativas, voy a asumir que contamos con tu total cooperación.")
+                     :paragraph-2 "Debemos acelerar el ritmo para prepararte. El rendimiento de los queries es de suma importancia. Las cláusulas :where de queries en Datomic se ejecutan en orden.
+                                   Para minimizar el trabajo realizado por el motor de queries, las cláusulas más restrictivas deben aparecer antes que las menos restrictivas."
+                     :paragraph-3 "Por ejemplo:"
                      :paragraph-4 "(d/q '[:find ?farm-name\n       :in $ ?worker-id\n       :where [?worker :worker/id ?worker-id]\n              [?farm :farm/workers ?worker]\n              [:?farm :farm/name ?farm-name]] db \"123-abc\")"
-                     :paragraph-5 ":worker/id :farm/workers"
-                     :paragraph-6 ""
-                     :paragraph-7 ""}}
+                     :paragraph-5 "Nota cómo la cláusula más específica :worker/id es la primera. Si la consulta tuviera :farm/workers primero eso no sería del todo selectivo,
+                                   y obligaría al motor de queries a considerar a todos los trabajadores en la base de datos antes de reducir a una identificación de trabajador específica. Poner la cláusula más selectiva primero puede causar mejoras dramáticas en el rendimiento."
+                     :paragraph-6 "Reordene las cláusulas en la consulta de la derecha para que las cláusulas más selectivas aparezcan primero."
+                     :paragraph-7 "Ahora puedes continuar al nivel 15."}}
