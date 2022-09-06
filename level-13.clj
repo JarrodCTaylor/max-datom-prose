@@ -14,7 +14,7 @@
                      :paragraph-5.3 "{:post/stats (str \"Likes: \" <<postLikeCount>> \" Dislikes: \" <<postDislikeCount>>)}"
                      :paragraph-5.4 " for each post."
                      :paragraph-6 "You may now continue to level 14."}
-           :portuguese {:level-title "Nível 14"
+           :portuguese {:level-title "Nível 13"
                         :paragraph-1 (str "Humano " applicant-name ", você pode escrever suas próprias")
                         :paragraph-1.1 "funções customizadas"
                         :paragraph-1.2 "para uso como agregação, predicado ou cláusulas de função em queries."
@@ -30,7 +30,7 @@
                         :paragraph-5.3 "{:post/stats (str \"Likes: \" <<postLikeCount>> \" Dislikes: \" <<postDislikeCount>>)}"
                         :paragraph-5.4 "para cada postagem."
                         :paragraph-6 "Você pode seguir para o nível 14."}
-           :spanish {:level-title "Nivel 14"
+           :spanish {:level-title "Nivel 13"
                      :paragraph-1 (str "Humano " applicant-name ", puedes escribir tu propia ")
                      :paragraph-1.1 "custom functions"
                      :paragraph-1.2 " para usar como aggregate function, de predicado o cláusula de función en queries."
