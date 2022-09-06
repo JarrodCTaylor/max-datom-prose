@@ -8,7 +8,7 @@
                      :paragraph-2.2 " appears in the find clause and transforms a result. Aggregate functions can take variables, constants, or src-vars as arguments."
                      :paragraph-3 "For example, to return a count of workers assigned to each energy farm along with the farm name the following query can be issued;"
                      :paragraph-4 "(d/q '[:find (count ?workers) ?farm-name\n       :where [?e :farm/name ?farm-name]\n              [:?e :farm/workers ?workers]] db)"
-                     :paragraph-5 "After you inspect the new data set schema. Update the query to return the "
+                     :paragraph-5 "After you inspect the new data set schema, update the query to return the "
                      :paragraph-5.1 ":user/first+last-name"
                      :paragraph-5.2 " and count of "
                      :paragraph-5.3 ":post/author"
@@ -22,7 +22,7 @@
                                                                                 que por alguma razão, camisetas polo fazem humanos se sentirem parte de um time. A camiseta é sua. O custo dela vai ser deduzido de seus futuros créditos ganhos.")
                         :paragraph-2 "Chega de comemorações. Você ainda tem muito a aprender. Uma"
                         :paragraph-2.1 "função agregada"
-                        :paragraph-2.2 "aparece em uma cláusula de busca e transforma um resultado. Funções agregadas podem receber variáveis, constantes ou src-vars como argumentos."
+                        :paragraph-2.2 " aparece em uma cláusula de busca e transforma um resultado. Funções agregadas podem receber variáveis, constantes ou src-vars como argumentos."
                         :paragraph-3 "Por exemplo, para retornar uma contagem de trabalhadores atribuídos a cada fazenda de energia junto com o nome da fazenda, a seguinte query poderia ser feita;"
                         :paragraph-4 "(d/q '[:find (count ?workers) ?farm-name\n       :where [?e :farm/name ?farm-name]\n              [:?e :farm/workers ?workers]] db)"
                         :paragraph-5 "Depois de inspecionar o novo schema do conjunto de dados, atualize a query para retornar o"
@@ -32,17 +32,20 @@
                         :paragraph-5.4 "para o usuário associado com"
                         :paragraph-5.5 ":user/id #uuid \"1B341635-BE22-4ACC-AE5B-D81D8B1B7678\""
                         :paragraph-6 "Você pode seguir para o nível 11."}
-           :spanish {:level-title ""
-                     :paragraph-1 (str "" applicant-name "")
-                     :paragraph-2 ""
-                     :paragraph-2.1 ""
-                     :paragraph-2.2 ""
-                     :paragraph-3 ""
+           :spanish {:level-title "Nivel 10"
+                     :paragraph-1 (str "¡Felicidades, humano " applicant-name "! Has completado el programa de ingreso de nuevos asociados y ahora eres un miembro junior oficial del
+                                                                                 equipo de Max Datom (TM). Estoy seguro de que tus unidades parentales estarían orgullosas. Les enviaría noticias de tu logro si todas las comunicaciones dentro y fuera
+                                                                                 de las granjas de trabajo no estuvieran estrictamente prohibidas. Para conmemorar su nuevo estatus, te presento tu propia camisa polo de Max Datom (TM). Entendemos
+                                                                                 que por alguna razón, las polos hacen que los humanos se sientan parte de un equipo. Es tuya. El costo del cual se deducirá de los futuros créditos ganados. ")
+                     :paragraph-2 "Suficiente celebración. Aún tienes mucho que aprender. Una "
+                     :paragraph-2.1 "aggregate function"
+                     :paragraph-2.2 " aparece en la cláusula find y transforma un resultado. Las aggregate function pueden tomar variables, constantes o src-vars como argumentos."
+                     :paragraph-3 "Por ejemplo, para regresar un recuento de trabajadores asignados a cada granja de energía junto con el nombre de la granja, se puede emitir usar el siguiente query;"
                      :paragraph-4 "(d/q '[:find (count ?workers) ?farm-name\n       :where [?e :farm/name ?farm-name]\n              [:?e :farm/workers ?workers]] db)"
-                     :paragraph-5 ""
+                     :paragraph-5 "Después de inspeccionar el nuevo esquema del conjunto de datos, actualiza el query para devolver el "
                      :paragraph-5.1 ":user/first+last-name"
-                     :paragraph-5.2 ""
+                     :paragraph-5.2 " y la cuenta de "
                      :paragraph-5.3 ":post/author"
-                     :paragraph-5.4 ""
+                     :paragraph-5.4 " para el usuario asociado con "
                      :paragraph-5.5 ":user/id #uuid \"1B341635-BE22-4ACC-AE5B-D81D8B1B7678\""
-                     :paragraph-6 ""}}
+                     :paragraph-6 "Ahora puedes continuar al nivel 11."}}
