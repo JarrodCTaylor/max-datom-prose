@@ -27,7 +27,7 @@
                                                                            Si no, bueno... estoy seguro de que tendrás éxito. Pareces mucho más capaz que el último candidato que tuvimos aquí.")
                     :paragraph-3.1 "Empiezar por correr el query que se encuentra en la sección de la derecha."
                     :paragraph-3.2 " Este query va a regresar todas las fechas de publicaciones de las entidades libro."
-                    :paragraph-4 "¡Felicidades! Haz logrado aplastar un botón. *Nota: las habilidades cognitivas básicas del candidato no aparecen
+                    :paragraph-4 "¡Felicidades! Has logrado aplastar un botón. *Nota: las habilidades cognitivas básicas del candidato no aparecen
                                   haber sido severamente dañadas por tareas previas de producción de energía.*"
                     :paragraph-5.1 "Ahora, modifica el query para regresar los valores en la base de datos para "
                     :paragraph-5.2 ":book/author"
