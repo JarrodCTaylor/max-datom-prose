@@ -17,9 +17,9 @@
                         :paragraph-4 "jarrod@cognitect.com"
                         :paragraph-5 "seu id:"}
            :spanish {:level-title "Epílogo"
-                     :paragraph-1 (str "Humano " applicant-name ", haz hecho bien. Tan bien, de hecho, que te podrías tener un ascenso. Si logramos que se apruebe, podrías ser el nuevo segundo alterno en linea para el administrador asociado junior del tercer turno de temporada.
-                                        Una ascenso como este merece un pequeño descanso. A pesar de que solo haz estado aquí durante unas catorce horas hoy, tómate el resto del día y reflexiona sobre tu logro.")
-                     :paragraph-2 "Haz aprendido muchos de los fundamentos de Datomic. En este punto deberías sentirte cómodo instalando y experimentando con "
+                     :paragraph-1 (str "Humano " applicant-name ", has hecho bien. Tan bien, de hecho, que te podrías tener un ascenso. Si logramos que se apruebe, podrías ser el nuevo segundo alterno en linea para el administrador asociado junior del tercer turno de temporada.
+                                        Una ascenso como este merece un pequeño descanso. A pesar de que solo has estado aquí durante unas catorce horas hoy, tómate el resto del día y reflexiona sobre tu logro.")
+                     :paragraph-2 "Has aprendido muchos de los fundamentos de Datomic. En este punto deberías sentirte cómodo instalando y experimentando con "
                      :paragraph-2.1 "dev-local"
                      :paragraph-2.2 " en tus aplicaciones."
                      :paragraph-3 "Para reclamar tu botín de Max-Datom, manda un correo a la inteligencia no-artificial:"
