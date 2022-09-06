@@ -6,7 +6,7 @@
                      :slugline "Uma Experiência Interativa de Aprendizado de Datomic™"
                      :btn-start "Começar"
                      :btn-continue "Continuar"}
-        :spanish {:subtitle ""
-                  :slugline ""
-                  :btn-start ""
-                  :btn-continue ""}}
+        :spanish {:subtitle "Asistente Personal\u00A0 Análogo"
+                  :slugline "Una Experiencia Interactiva de Aprendizaje de Datomic"
+                  :btn-start "Iniciar"
+                  :btn-continue "Continuar"}}
