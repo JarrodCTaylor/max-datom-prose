@@ -24,16 +24,16 @@
                         :paragraph-5.4 "para os"
                         :paragraph-5.5 ":post/comments"
                         :paragraph-6 "Você pode seguir para o nível 13."}
-           :spanish {:level-title ""
-                     :paragraph-1 (str "" applicant-name "")
+           :spanish {:level-title "Nivel 12"
+                     :paragraph-1 (str "Humano " applicant-name ", la opción ")
                      :paragraph-1.1 ":xform"
-                     :paragraph-1.2 ""
-                     :paragraph-2 " \"expired batteries\" :xform "
-                     :paragraph-3 "(defn int->str [i]\n  (case i\n        0 \"zero\"\n        1 \"one\"\n        2 \"two\"\n        3 \"three\"\n        \"I have been advised not to talk numbers\"))\n\n(d/q '[:find  (pull ?farm [:farm/name [:farm/expired-battery-count :xform ns/int->str]])\n       :where [?farm :farm/name]]\n     db)"
-                     :paragraph-5 ":xform"
+                     :paragraph-1.2 " da la habilidad de transformar el valor regresado por PULL para un atributo."
+                     :paragraph-2 "Por ejemplo, si en lugar de un entero para \"expired batteries\" asociadas con una granja de energía dada, el requirimiento fuera regresar una palabra, :xform podría ser usado. "
+                     :paragraph-3 "(defn int->str [i]\n  (case i\n        0 \"zero\"\n        1 \"one\"\n        2 \"two\"\n        3 \"three\"\n        \"Me han aconsejado que no hable de números.\"))\n\n(d/q '[:find  (pull ?farm [:farm/name [:farm/expired-battery-count :xform ns/int->str]])\n       :where [?farm :farm/name]]\n     db)"
+                     :paragraph-5 "Usando :xform en el query para regresar el "
                      :paragraph-5.1 ":user/first+last-name"
-                     :paragraph-5.2 ""
+                     :paragraph-5.2 " del autor del post y un string con la forma "
                      :paragraph-5.3 "Comment Count: <count>"
-                     :paragraph-5.4 ""
+                     :paragraph-5.4 " para los "
                      :paragraph-5.5 ":post/comments"
-                     :paragraph-6 ""}}
+                     :paragraph-6 "Ahora puedes continuar al nivel 13."}}

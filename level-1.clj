@@ -21,12 +21,15 @@
                        :paragraph-5.2 ":book/author"
                        :paragraph-5.3 ", ao invés de :book/publication-date."  
                        :paragraph-6 (str "Parabéns, humano "applicant-name"! Você é oficialmente o mais novo membro do grupo de treinamento Max Datom "(random-uuid)". Por favor, siga para área de treinamento.")}
-          :spanish {:level-title ""
-                    :paragraph-1 (str "" applicant-name "")
-                    :paragraph-3.1 ""
-                    :paragraph-3.2 ""
-                    :paragraph-4 ""
-                    :paragraph-5.1 ""
+          :spanish {:level-title "Evaluación"
+                    :paragraph-1 (str "Bienvenido humano, " applicant-name ". Este es el Campus de Entrenamiento Max Datom.
+                                                                           Primero, se te hará a una evaluación de aptitud básica. Si tienes éxito, puedes ingresar oficialmente al programa de capacitación. 
+                                                                           Si no, bueno... estoy seguro de que tendrás éxito. Pareces mucho más capaz que el último candidato que tuvimos aquí.")
+                    :paragraph-3.1 "Empiezar por correr el query que se encuentra en la sección de la derecha."
+                    :paragraph-3.2 " Este query va a regresar todas las fechas de publicaciones de las entidades libro."
+                    :paragraph-4 "¡Felicidades! Has logrado aplastar un botón. *Nota: las habilidades cognitivas básicas del candidato no aparecen
+                                  haber sido severamente dañadas por tareas previas de producción de energía.*"
+                    :paragraph-5.1 "Ahora, modifica el query para regresar los valores en la base de datos para "
                     :paragraph-5.2 ":book/author"
-                    :paragraph-5.3 ", instead of :book/publication-date." ;; `:book/publication-date needs to stay untranslated`
-                    :paragraph-6 (str "" applicant-name "" (random-uuid) "")}}
+                    :paragraph-5.3 ", en lugar de :book/publication-date." ;; `:book/publication-date needs to stay untranslated`
+                    :paragraph-6 (str "¡Felicidades, humano " applicant-name "! Eres oficialmente el miembro más nuevo del grupo de entrenamiento Max Datom " (random-uuid) ". Por favor avanza al área de entrenamiento.")}}
