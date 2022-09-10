@@ -16,27 +16,27 @@
                      :paragraph-5.5 ":user/id #uuid \"1B341635-BE22-4ACC-AE5B-D81D8B1B7678\""
                      :paragraph-6 "You may now continue to level 11."}
            :portuguese {:level-title "Nível 10"
-                        :paragraph-1 (str "Parabéns, humano " applicant-name "! Você completou o programa de entrada para novos associados e agora é oficialmente um membro júnior do time Max Datom (TM). 
-                                                                                Eu tenho certeza que seus pais ficariam orgulhosos. Eu enviaria a eles a notícia da sua conquista se todas as comunicações de entrada e saída
-                                                                                de fazendas de trabalho não fossem estritamente proibidas. Para comemorar seu novo status eu estou presenteando você com sua própria camiseta polo do Max Datom (TM). Nós entendemos
-                                                                                que por alguma razão, camisetas polo fazem humanos se sentirem parte de um time. A camiseta é sua. O custo dela vai ser deduzido de seus futuros créditos ganhos.")
-                        :paragraph-2 "Chega de comemorações. Você ainda tem muito a aprender. Uma"
+                        :paragraph-1 (str "Parabéns, humano " applicant-name "! Você completou o programa de entrada para novos associados e agora é oficialmente um membro júnior do time Max Datom (TM).
+                                                                              Eu tenho certeza que seus pais ficariam orgulhosos. Eu enviaria a eles a notícia da sua conquista se todas as comunicações de entrada e saída
+                                                                              de fazendas de trabalho não fossem estritamente proibidas. Para comemorar seu novo status eu estou presenteando você com sua própria camiseta polo do Max Datom (TM). Nós entendemos
+                        que por alguma razão, camisetas polo fazem humanos se sentirem parte de um time. A camiseta é sua. O custo dela vai ser deduzido de seus futuros créditos ganhos.")
+                        :paragraph-2 "Chega de comemorações. Você ainda tem muito a aprender. Umab "
                         :paragraph-2.1 "função agregada"
                         :paragraph-2.2 " aparece em uma cláusula de busca e transforma um resultado. Funções agregadas podem receber variáveis, constantes ou src-vars como argumentos."
                         :paragraph-3 "Por exemplo, para retornar uma contagem de trabalhadores atribuídos a cada fazenda de energia junto com o nome da fazenda, a seguinte query poderia ser feita;"
                         :paragraph-4 "(d/q '[:find (count ?workers) ?farm-name\n       :where [?e :farm/name ?farm-name]\n              [:?e :farm/workers ?workers]] db)"
-                        :paragraph-5 "Depois de inspecionar o novo schema do conjunto de dados, atualize a query para retornar o"
+                        :paragraph-5 "Depois de inspecionar o novo schema do conjunto de dados, atualize a query para retornar o "
                         :paragraph-5.1 ":user/first+last-name"
-                        :paragraph-5.2 "e contagem de"
+                        :paragraph-5.2 " e contagem de "
                         :paragraph-5.3 ":post/author"
-                        :paragraph-5.4 "para o usuário associado com"
+                        :paragraph-5.4 " para o usuário associado com "
                         :paragraph-5.5 ":user/id #uuid \"1B341635-BE22-4ACC-AE5B-D81D8B1B7678\""
                         :paragraph-6 "Você pode seguir para o nível 11."}
            :spanish {:level-title "Nivel 10"
                      :paragraph-1 (str "¡Felicidades, humano " applicant-name "! Has completado el programa de ingreso de nuevos asociados y ahora eres un miembro junior oficial del
-                                                                                 equipo de Max Datom (TM). Estoy seguro de que tus unidades parentales estarían orgullosas. Les enviaría noticias de tu logro si todas las comunicaciones dentro y fuera
-                                                                                 de las granjas de trabajo no estuvieran estrictamente prohibidas. Para conmemorar su nuevo estatus, te presento tu propia camisa polo de Max Datom (TM). Entendemos
-                                                                                 que por alguna razón, las polos hacen que los humanos se sientan parte de un equipo. Es tuya. El costo del cual se deducirá de los futuros créditos ganados. ")
+                                                                               equipo de Max Datom (TM). Estoy seguro de que tus unidades parentales estarían orgullosas. Les enviaría noticias de tu logro si todas las comunicaciones dentro y fuera
+                                                                               de las granjas de trabajo no estuvieran estrictamente prohibidas. Para conmemorar su nuevo estatus, te presento tu propia camisa polo de Max Datom (TM). Entendemos
+                                                                               que por alguna razón, las polos hacen que los humanos se sientan parte de un equipo. Es tuya. El costo del cual se deducirá de los futuros créditos ganados. ")
                      :paragraph-2 "Suficiente celebración. Aún tienes mucho que aprender. Una "
                      :paragraph-2.1 "aggregate function"
                      :paragraph-2.2 " aparece en la cláusula find y transforma un resultado. Las aggregate function pueden tomar variables, constantes o src-vars como argumentos."

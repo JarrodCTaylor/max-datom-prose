@@ -18,7 +18,7 @@
                     :paragraph-8 "You may now continue to level 6."}
           :portuguese {:level-title "Nível 5"
                        :paragraph-1 (str "Humano " applicant-name ", ")
-                       :paragraph-1.1 "é uma maneira declarativa de fazer seleções hierárquicas (e possivelmente aninhadas) de informações sobre entidades. Pull aplica um padrão a uma coleção de entidades, construindo um mapa para cada entidade."
+                       :paragraph-1.1 " é uma maneira declarativa de fazer seleções hierárquicas (e possivelmente aninhadas) de informações sobre entidades. Pull aplica um padrão a uma coleção de entidades, construindo um mapa para cada entidade."
                        :paragraph-2 "*suspiro de andróide* A julgar pelo protótipo de olhar humano confuso em seu rosto, mesmo após minha explicação detalhada e precisa, você não entende o que é pull ou por que será incrivelmente útil em seus esforços."
                        :paragraph-3 "Comece rodando a query disponibilizada."
                        :paragraph-4 "Os Entity IDs por si só podem deixar muito para a imaginação."
@@ -28,15 +28,15 @@
                        :paragraph-5.3 ":find (pull ?e [*]) "
                        :paragraph-5.4 "e rode novamente."
                        :paragraph-6 "Os padrões pull suportam uma variedade de opções de navegação de atributo. A especificação coringa* usada aqui extrai todos os atributos de uma entidade. O valor de :book/author é uma referência a uma entidade que representa um autor (consulte a guia Schema para obter uma representação visual). Neste caso, a informação que nos interessa é o nome do livro e o nome e sobrenome do autor."
-                       :paragraph-7 "Substitua"
+                       :paragraph-7 "Substitua "
                        :paragraph-7.1 "* "
-                       :paragraph-7.2 "padrão por"
+                       :paragraph-7.2 "padrão por "
                        :paragraph-7.3 ":book/name {:book/author [:author/first-name :author/last-name]} "
                        :paragraph-7.4 "para recuperar os atributos desejados."
                        :paragraph-8 "Você pode seguir para o nível 6."}
           :spanish {:level-title "Nivel 5"
-                    :paragraph-1 (str "Humano" applicant-name ", ")
-                    :paragraph-1.1 "es una forma declarativa de hacer selecciones jerárquicas (y posiblemente anidadas) de información sobre entidades. Pull aplica un patrón a una colección de entidades, creando un mapa para cada entidad."
+                    :paragraph-1 (str "Humano " applicant-name ", ")
+                    :paragraph-1.1 " es una forma declarativa de hacer selecciones jerárquicas (y posiblemente anidadas) de información sobre entidades. Pull aplica un patrón a una colección de entidades, creando un mapa para cada entidad."
                     :paragraph-2 "*Juzga en androide* Juzgando por la prototípica cara de confusión humana sobre tu rostro, incluso aún después de mi detallada y precisa explicación, no comprendes que es Pull o el por qué será increíblemente útil en tus esfuerzos."
                     :paragraph-3 " Empieza por ejecutar el query proveído."
                     :paragraph-4 "Los IDs de entidades por sí solos pueden dejar mucho a la imaginación."
@@ -46,9 +46,9 @@
                     :paragraph-5.3 ":find (pull ?e [*]) "
                     :paragraph-5.4 "y vuelve a ejecutarlo."
                     :paragraph-6 "Los patrones de Pull soportan una variedad de opciones de navegación de atributos. La especificación comodín * usada aquí jala todos los atributos de la entidad. El valor de :book/author es una referencia a la entidad representando a un autor (checa el tab Schema para una representación visual). En este caso, la información en la que estamos interesados es el nombre del libro, y el nombre y apellido del autor."
-                    :paragraph-7 "Reemplaza el"
+                    :paragraph-7 "Reemplaza el "
                     :paragraph-7.1 "* "
-                    :paragraph-7.2 "patrón con"
+                    :paragraph-7.2 "patrón con "
                     :paragraph-7.3 ":book/name {:book/author [:author/first-name :author/last-name]} "
                     :paragraph-7.4 "para obtener los atributos deseados. "
                     :paragraph-8 "Puedes continuar al nivel 6."}}

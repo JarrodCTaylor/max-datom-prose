@@ -9,9 +9,9 @@
                     :paragraph-4.2 "using the underscore prefix syntax."
                     :paragraph-5 "You may now continue to level 7."}
           :portuguese {:level-title "Nível 6"
-                       :paragraph-1 (str "Humano " applicant-name "normalmente, pull retorna um mapa de atributos e valores selecionados de uma entidade específica.")
+                       :paragraph-1 (str "Humano " applicant-name "normalmente, pull retorna um mapa de atributos e valores selecionados de uma entidade específica. ")
                        :paragraph-1.1 "Um prefixo sublinhado"
-                       :paragraph-1.2 "/_ no componente de nome local de um atributo faz com que o atributo seja navegado em reverso. Por exemplo:"
+                       :paragraph-1.2 " /_ no componente de nome local de um atributo faz com que o atributo seja navegado em reverso. Por exemplo:"
                        :paragraph-2 "[:find (pull ?e [:farm/_workers])\n :where [?e :worker/id #uuid \"DC122EEA-5D92-45CE-98ED-874AFA648CEE\"]"
                        :paragraph-3 "puxará quaisquer entidades que tenham um atributo :farm/workers com o valor de [:worker/id #uuid \"DC122EEA-5D92-45CE-98ED-874AFA648CEE\"]"
                        :paragraph-4 "Modifique a query para retornar quaisquer entidades que façam referência ao id na query como um valor para"
@@ -21,7 +21,7 @@
           :spanish {:level-title "Nivel 6"
                     :paragraph-1 (str "Humano" applicant-name ", normalmente Pull retorna un mapa de atributos y valores seleccionados de una entidad específica. ")
                     :paragraph-1.1 "Un prefijo de guión bajo"
-                    :paragraph-1.2 "/_ en el componente de nombre local de un atributo causa que el atributo sea navegado en reversa. Por ejemplo: "
+                    :paragraph-1.2 " /_ en el componente de nombre local de un atributo causa que el atributo sea navegado en reversa. Por ejemplo: "
                     :paragraph-2 "[:find (pull ?e [:farm/_workers])\n :where [?e :worker/id #uuid \"DC122EEA-5D92-45CE-98ED-874AFA648CEE\"]"
                     :paragraph-3 "Jalara cualquier entidad que tenga un atributo :farm/workers  con el valor de [:worker/id #uuid \"DC122EEA-5D92-45CE-98ED-874AFA648CEE\"]"
                     :paragraph-4 "Modifica el query para retornar cualquier entidad que referencie el id en el query como un valor para "

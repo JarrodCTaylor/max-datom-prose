@@ -8,17 +8,17 @@
                      :paragraph-4 "jarrod@cognitect.com"
                      :paragraph-5 "your id:"}
            :portuguese {:level-title "Epílogo"
-                        :paragraph-1 (str "Humano" "applicant-name", você foi bem. Na verdade, você está pronto para uma promoção. Se aprovado, você pode ser a segunda alternativa na nossa fila para se tornar o terceiro júnior manager. 
-                                          Uma promoção como esta garante um pouco de folga. Mesmo que você esteja aqui apenas por catorze horas hoje, vá em frente e tire uma folga esta tarde para refletir sobre sua conquista.")
-                        :paragraph-2 "Você aprendeu muito dos conceitos fundamentais de Datomic. Agora você deve se sentir confortável instalando e experimentando."
+                        :paragraph-1 (str "Humano " applicant-name ", você foi bem. Na verdade, você está pronto para uma promoção. Se aprovado, você pode ser a segunda alternativa na nossa fila para se tornar o terceiro júnior manager.
+                                                                   Uma promoção como esta garante um pouco de folga. Mesmo que você esteja aqui apenas por catorze horas hoje, vá em frente e tire uma folga esta tarde para refletir sobre sua conquista.")
+                        :paragraph-2 "Você aprendeu muito dos conceitos fundamentais de Datomic. Agora você deve se sentir confortável instalando e experimentando "
                         :paragraph-2.1 "dev-local"
-                        :paragraph-2.2 "em suas aplicações."
+                        :paragraph-2.2 " em suas aplicações."
                         :paragraph-3 "Para reivindicar seus ganhos no Max-Datom, envie um e-mail para a inteligência não-artificial em:"
                         :paragraph-4 "jarrod@cognitect.com"
                         :paragraph-5 "seu id:"}
            :spanish {:level-title "Epílogo"
                      :paragraph-1 (str "Humano " applicant-name ", has hecho bien. Tan bien, de hecho, que te podrías tener un ascenso. Si logramos que se apruebe, podrías ser el nuevo segundo alterno en linea para el administrador asociado junior del tercer turno de temporada.
-                                        Una ascenso como este merece un pequeño descanso. A pesar de que solo has estado aquí durante unas catorce horas hoy, tómate el resto del día y reflexiona sobre tu logro.")
+                                       Una ascenso como este merece un pequeño descanso. A pesar de que solo has estado aquí durante unas catorce horas hoy, tómate el resto del día y reflexiona sobre tu logro.")
                      :paragraph-2 "Has aprendido muchos de los fundamentos de Datomic. En este punto deberías sentirte cómodo instalando y experimentando con "
                      :paragraph-2.1 "dev-local"
                      :paragraph-2.2 " en tus aplicaciones."
