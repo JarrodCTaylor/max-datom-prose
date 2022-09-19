@@ -6,8 +6,8 @@
         :portuguese {:title "Opções"
                      :level "Selecione o Nível"
                      :language "Selecione a Língua"
-                     :label-1 ""
-                     :label-2 ""}
+                     :label-1 "Criado por"
+                     :label-2 "Traduções generosamente feitas por"}
         :spanish {:title "Opciones"
                   :level "Seleccionar Nivel"
                   :language "Selecionar Idioma"
