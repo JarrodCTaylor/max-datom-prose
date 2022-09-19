@@ -11,5 +11,5 @@
         :spanish {:title "Opciones"
                   :level "Seleccionar Nivel"
                   :language "Selecionar Idioma"
-                  :label-1 ""
-                  :label-2 ""}}
+                  :label-1 "Creado por"
+                  :label-2 "Traducciones generosamente proporcionadas por"}}
