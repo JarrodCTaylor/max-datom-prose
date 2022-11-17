@@ -9,7 +9,7 @@
                     :paragraph-4.2 "using the underscore prefix syntax."
                     :paragraph-5 "You may now continue to level 7."}
           :portuguese {:level-title "Nível 6"
-                       :paragraph-1 (str "Humano " applicant-name "normalmente, pull retorna um mapa de atributos e valores selecionados de uma entidade específica. ")
+                       :paragraph-1 (str "Humano " applicant-name ", normalmente, pull retorna um mapa de atributos e valores selecionados de uma entidade específica. ")
                        :paragraph-1.1 "Um prefixo sublinhado"
                        :paragraph-1.2 " /_ no componente de nome local de um atributo faz com que o atributo seja navegado em reverso. Por exemplo:"
                        :paragraph-2 "[:find (pull ?e [:farm/_workers])\n :where [?e :worker/id #uuid \"DC122EEA-5D92-45CE-98ED-874AFA648CEE\"]"
