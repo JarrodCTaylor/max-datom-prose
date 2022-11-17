@@ -20,7 +20,7 @@
                                                                               Eu tenho certeza que seus pais ficariam orgulhosos. Eu enviaria a eles a notícia da sua conquista se todas as comunicações de entrada e saída
                                                                               de fazendas de trabalho não fossem estritamente proibidas. Para comemorar seu novo status eu estou presenteando você com sua própria camiseta polo do Max Datom (TM). Nós entendemos
                         que por alguma razão, camisetas polo fazem humanos se sentirem parte de um time. A camiseta é sua. O custo dela vai ser deduzido de seus futuros créditos ganhos.")
-                        :paragraph-2 "Chega de comemorações. Você ainda tem muito a aprender. Umab "
+                        :paragraph-2 "Chega de comemorações. Você ainda tem muito a aprender. Uma "
                         :paragraph-2.1 "função agregada"
                         :paragraph-2.2 " aparece em uma cláusula de busca e transforma um resultado. Funções agregadas podem receber variáveis, constantes ou src-vars como argumentos."
                         :paragraph-3 "Por exemplo, para retornar uma contagem de trabalhadores atribuídos a cada fazenda de energia junto com o nome da fazenda, a seguinte query poderia ser feita;"
