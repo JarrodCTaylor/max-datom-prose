@@ -15,7 +15,7 @@
                        :paragraph-1.1 " acontece quando uma variável aparece em mais de um padrão de dados. Na consulta a seguir, ?e aparece duas vezes:"
                        :paragraph-2 "[:find ?e ?farm-id\n :where [?e :worker/age 27] \n        [?e :worker/energy-farm-id ?farm-id]]"
                        :paragraph-3 "As correspondências para a variável ?e devem ser unificadas. Ou seja: devem representar o mesmo valor em todas as cláusulas para satisfazer o conjunto de cláusulas. Um ?e correspondente deve ter :worker/age 27 e um valor para :worker/energy-farm-id que será vinculado a ?farm-id:"
-                       :paragraph-4 "Modofique a query para retornar o"
+                       :paragraph-4 "Modifique a query para retornar o"
                        :paragraph-4.1 ":book/publication-date "
                        :paragraph-4.2 "para a entidade com"
                        :paragraph-4.3 ":book/name "
